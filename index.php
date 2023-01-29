@@ -10,17 +10,19 @@
 
 <body>
 
-    <?php include '/views/header.php' ?>
+    <?php include 'views/header.php' ?>
 
     <form action="home.php" method="post">
-        <label for="name"></label>
-        <input type="text" placeholder="Enter you're username" maxlength="20" minlength="10">
+        <label for="email"></label>
+        <input type="text" placeholder="Enter you're email" maxlength="20" minlength="10">
+
         <label for="password"></label>
         <input type="password" name="password" placeholder="Enter you're password" maxlength="50" minlength="10">
+        
         <input type="submit" value="Login">
     </form>
 
-    <?php include '/views/footer.php' ?>
+    <?php include 'views/footer.php' ?>
 
 </body>
 
